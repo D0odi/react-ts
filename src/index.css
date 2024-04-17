@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  height: 100%;
+.full-screen {
+  @apply w-screen h-screen;
 }
